@@ -27,6 +27,16 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
+   
+    int num = in.nextInt(); //get number
+
+    ArrayList<Integer> input = new ArrayList<Integer>();
+
+    for (int i = 0; i < num; i++){
+      input.add(in.nextInt());
+    }
+    
+    //Just need to add the find mode part
     
   }
 }
